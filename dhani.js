@@ -365,9 +365,9 @@ options
 );
 };
 
-const daftar1 = `Hai kak  ${pushname} ${ucapanWaktu} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
+const daftar1 = `Hai Babu  ${pushname} ${ucapanWaktu} \n\nMau Akses Bot? Verify Dulu Gblk `
 const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak\nJika Tidak Support Button Ketik #verify```'
-const daftar3 = [{buttonId: `${prefix}verify`,buttonText: {displayText: `𝘿𝘼𝙁𝙏𝘼𝙍`,},type: 1,},]
+const daftar3 = [{buttonId: `${prefix}verify`,buttonText: {displayText: `Izin Verify`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -463,33 +463,24 @@ menu =
 
 
 \`\`\`❏「 WAKTU INDONESIA 」\`\`\`
-${gaya1} *Tanggal* : ${tanggal}
-${gaya1} *Wib* : ${time}
-${gaya1} *Wita* : ${timeMak}
-${gaya1} *Wit* : ${timeJay}
+🔖 *Tanggal* : ${tanggal}
+🔖 *Wib* : ${time}
+🔖 *Wita* : ${timeMak}
+🔖 *Wit* : ${timeJay}
 
 
-\`\`\`❏「 INFO BOT 」\`\`\`
-${gaya1} *Speed* : ${latensie.toFixed(4)} Detik
-${gaya1} *Runtime* : ${runtime(process.uptime())}
-${gaya1} *Nama Bot* : ${botname}
-${gaya1} *Nama Owner* : ${ownername}
-${gaya1} *Nomor Owner* : @${pemilik.split('@')[0]}
-${gaya1} *Hostname :* ${os.hostname()}
-${gaya1} *Platform :* ${os.platform()}
-${gaya1} *Wa Version :* ${Dhani.user.phone.wa_version}
-${gaya1} *Total Pengguna :* ${_registered.length}
-${gaya1} *Mode :* ${self ? "Self" : "Public"}
-${gaya1} *Autoread* : ${autoread ? "Aktif" : "Off"}
-${gaya1} *Autoketik* : ${autoketik ? "Aktif" : "Off"}
-${gaya1} *Autovn* : ${autovn ? "Aktif" : "Off"}
+\`\`\`❏「 𝓐𝓐💗 」\`\`\`
+🔖 *Nama Bot* : ${botname}
+🔖 *Nama Owner* : ${ownername}
+🔖 *Nomor Owner* : @${pemilik.split('@')[0]}
+
 
 
 \`\`\`❏「 INFO USER 」\`\`\`
-${gaya1} *Nama* : ${pushname}
-${gaya1} *Bio* : ${bio_user}
-${gaya1} *Nomor* : @${senderr.split('@')[0]}
-${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
+🔖 *Nama* : ${pushname}
+🔖 *Bio* : ${bio_user}
+🔖 *Nomor* : @${senderr.split('@')[0]}
+🔖 *Status* : ${isOwner ? 'Owner' : 'User'}`
 teks =
 `_Silakan Pilih Tombol Di Bawah_
 _Pilih Salah Satu Jika WhatsApp Gb_
@@ -589,30 +580,30 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 GRUP MENU 」*
 
-${gaya2} ${prefix}antilink _on / off_
-${gaya2} ${prefix}antivirtex _on / off_
-${gaya2} ${prefix}welcome _on / off_
-${gaya2} ${prefix}nsfw _on / off_
-${gaya2} ${prefix}group _buka / tutup_
-${gaya2} ${prefix}promote _@tag / reply_
-${gaya2} ${prefix}demote _@tag / reply_
-${gaya2} ${prefix}kick _@tag / reply_
-${gaya2} ${prefix}setpp _reply_
-${gaya2} ${prefix}setdesc _teks_
-${gaya2} ${prefix}setname _teks_
-${gaya2} ${prefix}hidetag _teks_
-${gaya2} ${prefix}kontak _628x|Nama_
-${gaya2} ${prefix}kontag _@tag|Nama_
-${gaya2} ${prefix}sticktag _Reply Sticker_
-${gaya2} ${prefix}totag _Reply Image_
-${gaya2} ${prefix}promoteall
-${gaya2} ${prefix}demoteall
-${gaya2} ${prefix}listadmin
-${gaya2} ${prefix}grupowner
-${gaya2} ${prefix}linkgrup
-${gaya2} ${prefix}infogrup
-${gaya2} ${prefix}listonline
-${gaya2} ${prefix}resetlinkgrup`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}antilink _on / off_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}antivirtex _on / off_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}welcome _on / off_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}nsfw _on / off_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}group _buka / tutup_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}promote _@tag / reply_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}demote _@tag / reply_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kick _@tag / reply_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}setpp _reply_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}setdesc _teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}setname _teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}hidetag _teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kontak _628x|Nama_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kontag _@tag|Nama_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sticktag _Reply Sticker_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}totag _Reply Image_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}promoteall
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}demoteall
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}listadmin
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}grupowner
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}linkgrup
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}infogrup
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}listonline
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}resetlinkgrup`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'downloadmenu':
@@ -620,12 +611,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 DOWNLOAD MENU 」*
 
-${gaya2} ${prefix}ytmp3 _Link_
-${gaya2} ${prefix}ytmp4 _Link_
-${gaya2} ${prefix}tiktok _Link_
-${gaya2} ${prefix}tiktokwm _Link_
-${gaya2} ${prefix}tiktoknowm _Link_
-${gaya2} ${prefix}tiktokaudio _Link_`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ytmp3 _Link_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ytmp4 _Link_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}tiktok _Link_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}tiktokwm _Link_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}tiktoknowm _Link_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}tiktokaudio _Link_`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'makermenu':
@@ -633,145 +624,145 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 MAKER MENU 」*
 
-${gaya2} ${prefix}blackpink _Teks_
-${gaya2} ${prefix}halloween _Teks_
-${gaya2} ${prefix}halloween2 _Teks_
-${gaya2} ${prefix}3dgradient _Teks_
-${gaya2} ${prefix}naturalleaves _Teks_
-${gaya2} ${prefix}dropwater _Teks_
-${gaya2} ${prefix}blood _Teks_
-${gaya2} ${prefix}blood2 _Teks_
-${gaya2} ${prefix}snow _Teks_
-${gaya2} ${prefix}cloud _Teks_
-${gaya2} ${prefix}neondevil _Teks_
-${gaya2} ${prefix}neon _Teks_
-${gaya2} ${prefix}glowingneonlight _Teks_
-${gaya2} ${prefix}neonlight _Teks_
-${gaya2} ${prefix}neonlight2 _Teks_
-${gaya2} ${prefix}neonlight3 _Teks_
-${gaya2} ${prefix}greenneon _Teks_
-${gaya2} ${prefix}toxic _Teks_
-${gaya2} ${prefix}matrix _Teks_
-${gaya2} ${prefix}thunder _Teks_
-${gaya2} ${prefix}thunder2 _Teks_
-${gaya2} ${prefix}bokeh _Teks_
-${gaya2} ${prefix}carbontext _Teks_
-${gaya2} ${prefix}christmas _Teks_
-${gaya2} ${prefix}breakwall _Teks_
-${gaya2} ${prefix}roadwarning _Teks_
-${gaya2} ${prefix}engraved3d _Teks_
-${gaya2} ${prefix}embossed _Teks_
-${gaya2} ${prefix}3dstone _Teks_
-${gaya2} ${prefix}futuristic _Teks_
-${gaya2} ${prefix}sketch _Teks_
-${gaya2} ${prefix}bluecircuit _Teks_
-${gaya2} ${prefix}space _Teks_
-${gaya2} ${prefix}magmahot _Teks_
-${gaya2} ${prefix}artpapercut _Teks_
-${gaya2} ${prefix}3dluxurygold _Teks_
-${gaya2} ${prefix}robotr2d2 _Teks_
-${gaya2} ${prefix}harrypotter _Teks_
-${gaya2} ${prefix}glitch3 _Teks_
-${gaya2} ${prefix}greenhorror _Teks_
-${gaya2} ${prefix}horrorgift _Teks_
-${gaya2} ${prefix}erodedmetal _Teks_
-${gaya2} ${prefix}3dglowingmetal _Teks_
-${gaya2} ${prefix}blackmetal _Teks_
-${gaya2} ${prefix}bluemetal _Teks_
-${gaya2} ${prefix}shynimetal _Teks_
-${gaya2} ${prefix}rustymetal _Teks_
-${gaya2} ${prefix}metalpurple _Teks_
-${gaya2} ${prefix}metalrainbow _Teks_
-${gaya2} ${prefix}metaldarkgold _Teks_
-${gaya2} ${prefix}colorfullluxurymetal _Teks_
-${gaya2} ${prefix}glossybluemetal _Teks_
-${gaya2} ${prefix}3dglossymetal _Teks_
-${gaya2} ${prefix}3ddeepseametal _Teks_
-${gaya2} ${prefix}leddisplayscreen _Teks_
-${gaya2} ${prefix}metallic _Teks_
-${gaya2} ${prefix}glossymetallic _Teks_
-${gaya2} ${prefix}christmastree _Teks_
-${gaya2} ${prefix}sparklesmerrychristmas _Teks_
-${gaya2} ${prefix}countryflag3d _Teks_
-${gaya2} ${prefix}americanflag3d _Teks_
-${gaya2} ${prefix}3dscfi _Teks_
-${gaya2} ${prefix}3drainbow _Teks_
-${gaya2} ${prefix}3dwaterpipe _Teks_
-${gaya2} ${prefix}3dchrome _Teks_
-${gaya2} ${prefix}bluegem _Teks_
-${gaya2} ${prefix}purplegem _Teks_
-${gaya2} ${prefix}pinkcandy _Teks_
-${gaya2} ${prefix}transformer _Teks_
-${gaya2} ${prefix}berry _Teks_
-${gaya2} ${prefix}brokenglass _Teks_
-${gaya2} ${prefix}3drealistic _Teks_
-${gaya2} ${prefix}3dunderwater _Teks_
-${gaya2} ${prefix}writeinsandsummerbeach _Teks_
-${gaya2} ${prefix}sandwriting _Teks_
-${gaya2} ${prefix}foilballoon _Teks_
-${gaya2} ${prefix}3dglue _Teks_
-${gaya2} ${prefix}1917 _Teks_
-${gaya2} ${prefix}minion _Teks_
-${gaya2} ${prefix}doubleexposure _Teks_
-${gaya2} ${prefix}holographic3d _Teks_
-${gaya2} ${prefix}deluxegold _Teks_
-${gaya2} ${prefix}deluxesilver _Teks_
-${gaya2} ${prefix}glossycarbon _Teks_
-${gaya2} ${prefix}fabric _Teks_
-${gaya2} ${prefix}xmascards3d _Teks_
-${gaya2} ${prefix}wicker _Teks_
-${gaya2} ${prefix}fireworksparkle _Teks_
-${gaya2} ${prefix}skeleton _Teks_
-${gaya2} ${prefix}ultragloss _Teks_
-${gaya2} ${prefix}denim _Teks_
-${gaya2} ${prefix}decorategreen _Teks_
-${gaya2} ${prefix}peridot _Teks_
-${gaya2} ${prefix}rock _Teks_
-${gaya2} ${prefix}lava _Teks_
-${gaya2} ${prefix}rainbowequalizer _Teks_
-${gaya2} ${prefix}purpleglass _Teks_
-${gaya2} ${prefix}decorativeglass _Teks_
-${gaya2} ${prefix}chocolatecake _Teks_
-${gaya2} ${prefix}strawberry _Teks_
-${gaya2} ${prefix}koifish _Teks_
-${gaya2} ${prefix}bread _Teks_
-${gaya2} ${prefix}3dbox _Teks_
-${gaya2} ${prefix}freeadvancedglow _Teks_
-${gaya2} ${prefix}honey _Teks_
-${gaya2} ${prefix}marble _Teks_
-${gaya2} ${prefix}marbleslabs _Teks_
-${gaya2} ${prefix}icecold _Teks_
-${gaya2} ${prefix}fruitjuice _Teks_
-${gaya2} ${prefix}abstragold _Teks_
-${gaya2} ${prefix}biscuit _Teks_
-${gaya2} ${prefix}bagel _Teks_
-${gaya2} ${prefix}wood _Teks_
-${gaya2} ${prefix}hexagolden _Teks_
-${gaya2} ${prefix}wonderfulgraffitiart _Teks_
-${gaya2} ${prefix}8bit _Teks1&Teks2_
-${gaya2} ${prefix}pornhub _Teks1&Teks2_
-${gaya2} ${prefix}glitch _Teks1&Teks2_
-${gaya2} ${prefix}glitch2 _Teks1&Teks2_
-${gaya2} ${prefix}layered _Teks1&Teks2_
-${gaya2} ${prefix}3dsteel _Teks1&Teks2_
-${gaya2} ${prefix}realistic _Teks1&Teks2_
-${gaya2} ${prefix}lionlogo _Teks1&Teks2_
-${gaya2} ${prefix}ninjalogo _Teks1&Teks2_
-${gaya2} ${prefix}wolf _Teks1&Teks2_
-${gaya2} ${prefix}wolf2 _Teks1&Teks2_
-${gaya2} ${prefix}halloween3 _Teks1&Teks2_
-${gaya2} ${prefix}marvel _Teks1&Teks2_
-${gaya2} ${prefix}marvel2 _Teks1&Teks2_
-${gaya2} ${prefix}cinematichorror _Teks1&Teks2_
-${gaya2} ${prefix}avengers _Teks1&Teks2_
-${gaya2} ${prefix}graffiti3 _Teks1&Teks2_
-${gaya2} ${prefix}captainamerica _Teks1&Teks2_
-${gaya2} ${prefix}girlneko _Teks1&Teks2_
-${gaya2} ${prefix}sadboy _Teks1&Teks2_
-${gaya2} ${prefix}makerkaneki _Teks1&Teks2_
-${gaya2} ${prefix}rem _Teks1&Teks2_
-${gaya2} ${prefix}lolimaker _Teks1&Teks2_
-${gaya2} ${prefix}gura _Teks1&Teks2_`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}blackpink _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}halloween _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}halloween2 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dgradient _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}naturalleaves _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}dropwater _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}blood _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}blood2 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}snow _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cloud _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}neondevil _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}neon _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glowingneonlight _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}neonlight _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}neonlight2 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}neonlight3 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}greenneon _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}toxic _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}matrix _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}thunder _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}thunder2 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bokeh _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}carbontext _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}christmas _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}breakwall _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}roadwarning _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}engraved3d _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}embossed _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dstone _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}futuristic _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sketch _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bluecircuit _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}space _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}magmahot _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}artpapercut _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dluxurygold _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}robotr2d2 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}harrypotter _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glitch3 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}greenhorror _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}horrorgift _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}erodedmetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dglowingmetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}blackmetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bluemetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}shynimetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}rustymetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}metalpurple _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}metalrainbow _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}metaldarkgold _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}colorfullluxurymetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glossybluemetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dglossymetal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3ddeepseametal _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}leddisplayscreen _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}metallic _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glossymetallic _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}christmastree _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sparklesmerrychristmas _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}countryflag3d _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}americanflag3d _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dscfi _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3drainbow _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dwaterpipe _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dchrome _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bluegem _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}purplegem _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}pinkcandy _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}transformer _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}berry _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}brokenglass _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3drealistic _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dunderwater _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}writeinsandsummerbeach _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sandwriting _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}foilballoon _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dglue _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}1917 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}minion _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}doubleexposure _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}holographic3d _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}deluxegold _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}deluxesilver _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glossycarbon _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}fabric _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}xmascards3d _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wicker _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}fireworksparkle _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}skeleton _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ultragloss _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}denim _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}decorategreen _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}peridot _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}rock _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}lava _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}rainbowequalizer _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}purpleglass _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}decorativeglass _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}chocolatecake _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}strawberry _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}koifish _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bread _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dbox _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}freeadvancedglow _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}honey _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}marble _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}marbleslabs _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}icecold _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}fruitjuice _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}abstragold _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}biscuit _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bagel _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wood _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}hexagolden _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wonderfulgraffitiart _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}8bit _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}pornhub _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glitch _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glitch2 _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}layered _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}3dsteel _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}realistic _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}lionlogo _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ninjalogo _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wolf _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wolf2 _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}halloween3 _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}marvel _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}marvel2 _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cinematichorror _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}avengers _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}graffiti3 _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}captainamerica _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}girlneko _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sadboy _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}makerkaneki _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}rem _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}lolimaker _Teks1&Teks2_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}gura _Teks1&Teks2_`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'randomtext':
@@ -779,27 +770,27 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 RANDOM TEXT 」*
 
-${gaya2} ${prefix}faktaunik
-${gaya2} ${prefix}truth
-${gaya2} ${prefix}dare
-${gaya2} ${prefix}pantun
-${gaya2} ${prefix}puisi
-${gaya2} ${prefix}quotes
-${gaya2} ${prefix}quoteskanye
-${gaya2} ${prefix}quotesislami
-${gaya2} ${prefix}quotesanime
-${gaya2} ${prefix}quotesdilan
-${gaya2} ${prefix}quotesff
-${gaya2} ${prefix}quotespubg
-${gaya2} ${prefix}quoteshacker
-${gaya2} ${prefix}katabijak
-${gaya2} ${prefix}katailham
-${gaya2} ${prefix}katasindiran
-${gaya2} ${prefix}katabucin
-${gaya2} ${prefix}katabucin2
-${gaya2} ${prefix}kataml
-${gaya2} ${prefix}katagalau
-${gaya2} ${prefix}katagombal`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}faktaunik
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}truth
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}dare
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}pantun
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}puisi
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quotes
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quoteskanye
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quotesislami
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quotesanime
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quotesdilan
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quotesff
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quotespubg
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quoteshacker
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katabijak
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katailham
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katasindiran
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katabucin
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katabucin2
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kataml
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katagalau
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katagombal`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'randomimage':
@@ -807,24 +798,24 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 RANDOM IMAGE 」*
 
-${gaya2} ${prefix}ppcouple
-${gaya2} ${prefix}meme
-${gaya2} ${prefix}memeindo
-${gaya2} ${prefix}quotesimage
-${gaya2} ${prefix}katakataimage
-${gaya2} ${prefix}renungan
-${gaya2} ${prefix}darkjokes
-${gaya2} ${prefix}aesthetic
-${gaya2} ${prefix}wallpaperhacker
-${gaya2} ${prefix}wallpaperhacker2
-${gaya2} ${prefix}wallpaperharley
-${gaya2} ${prefix}wallpaperjoker
-${gaya2} ${prefix}wallpaperpubg
-${gaya2} ${prefix}wallpaperhp
-${gaya2} ${prefix}wallpaperhp2
-${gaya2} ${prefix}wallpaperkpop
-${gaya2} ${prefix}wallpaperblackpink
-${gaya2} ${prefix}wallpapergame`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ppcouple
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}meme
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}memeindo
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}quotesimage
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}katakataimage
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}renungan
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}darkjokes
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}aesthetic
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperhacker
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperhacker2
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperharley
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperjoker
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperpubg
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperhp
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperhp2
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperkpop
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpaperblackpink
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallpapergame`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'randomvideo':
@@ -832,15 +823,15 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 RANDOM VIDEO 」*
 
-${gaya2} ${prefix}beatvn
-${gaya2} ${prefix}jedagjedugff
-${gaya2} ${prefix}jedagjedugml
-${gaya2} ${prefix}jedagjedugpubg
-${gaya2} ${prefix}storywa
-${gaya2} ${prefix}storygalau
-${gaya2} ${prefix}storytruk
-${gaya2} ${prefix}storybus
-${gaya2} ${prefix}storyanime`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}beatvn
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}jedagjedugff
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}jedagjedugml
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}jedagjedugpubg
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}storywa
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}storygalau
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}storytruk
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}storybus
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}storyanime`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'asupanmenu':
@@ -848,15 +839,15 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 ASUPAN MENU 」*
 
-${gaya2} ${prefix}asupan
-${gaya2} ${prefix}asupanloli
-${gaya2} ${prefix}hijaber
-${gaya2} ${prefix}bocil
-${gaya2} ${prefix}rikagusriani
-${gaya2} ${prefix}santuy
-${gaya2} ${prefix}ukhty
-${gaya2} ${prefix}gheayubi
-${gaya2} ${prefix}nantalia`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}asupan
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}asupanloli
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}hijaber
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bocil
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}rikagusriani
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}santuy
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ukhty
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}gheayubi
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}nantalia`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'cecanmenu':
@@ -864,23 +855,23 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 CECAN MENU 」*
 
-${gaya2} ${prefix}cogan
-${gaya2} ${prefix}cecan
-${gaya2} ${prefix}cecan2
-${gaya2} ${prefix}cogan2
-${gaya2} ${prefix}jeni
-${gaya2} ${prefix}jiso
-${gaya2} ${prefix}justina
-${gaya2} ${prefix}lisa
-${gaya2} ${prefix}rose
-${gaya2} ${prefix}ryujin
-${gaya2} ${prefix}china
-${gaya2} ${prefix}vietnam
-${gaya2} ${prefix}thainlad
-${gaya2} ${prefix}indonesia
-${gaya2} ${prefix}korea
-${gaya2} ${prefix}japan
-${gaya2} ${prefix}malaysia`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cogan
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cecan
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cecan2
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cogan2
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}jeni
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}jiso
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}justina
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}lisa
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}rose
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ryujin
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}china
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}vietnam
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}thainlad
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}indonesia
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}korea
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}japan
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}malaysia`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'animemenu':
@@ -888,62 +879,62 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 ANIME MENU 」*
 
-${gaya2} ${prefix}naruto
-${gaya2} ${prefix}loli
-${gaya2} ${prefix}waifu
-${gaya2} ${prefix}neko
-${gaya2} ${prefix}husbu
-${gaya2} ${prefix}milf
-${gaya2} ${prefix}cosplay
-${gaya2} ${prefix}nekonime
-${gaya2} ${prefix}shota
-${gaya2} ${prefix}wallml
-${gaya2} ${prefix}akira
-${gaya2} ${prefix}akiyama
-${gaya2} ${prefix}ana
-${gaya2} ${prefix}asuna
-${gaya2} ${prefix}ayuzawa
-${gaya2} ${prefix}boruto
-${gaya2} ${prefix}chiho
-${gaya2} ${prefix}chitoge
-${gaya2} ${prefix}deidara
-${gaya2} ${prefix}eba
-${gaya2} ${prefix}elaina
-${gaya2} ${prefix}emilia
-${gaya2} ${prefix}erza
-${gaya2} ${prefix}gremory
-${gaya2} ${prefix}hestia
-${gaya2} ${prefix}hinata
-${gaya2} ${prefix}isuzu
-${gaya2} ${prefix}itachi
-${gaya2} ${prefix}itori
-${gaya2} ${prefix}kagura
-${gaya2} ${prefix}kakasih
-${gaya2} ${prefix}kaori
-${gaya2} ${prefix}kaneki
-${gaya2} ${prefix}kotori
-${gaya2} ${prefix}kurumi
-${gaya2} ${prefix}madara
-${gaya2} ${prefix}mikasa
-${gaya2} ${prefix}miku
-${gaya2} ${prefix}minato
-${gaya2} ${prefix}nezuko
-${gaya2} ${prefix}rize
-${gaya2} ${prefix}sagiri
-${gaya2} ${prefix}sakura
-${gaya2} ${prefix}sasuke
-${gaya2} ${prefix}shina
-${gaya2} ${prefix}shinka
-${gaya2} ${prefix}shinomiya
-${gaya2} ${prefix}shizuka
-${gaya2} ${prefix}tejina
-${gaya2} ${prefix}toukachan
-${gaya2} ${prefix}tsunade
-${gaya2} ${prefix}yotsuba
-${gaya2} ${prefix}yuki
-${gaya2} ${prefix}yumeko
-${gaya2} ${prefix}fanart
-${gaya2} ${prefix}nino`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}naruto
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}loli
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}waifu
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}neko
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}husbu
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}milf
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cosplay
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}nekonime
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}shota
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}wallml
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}akira
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}akiyama
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ana
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}asuna
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ayuzawa
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}boruto
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}chiho
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}chitoge
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}deidara
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}eba
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}elaina
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}emilia
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}erza
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}gremory
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}hestia
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}hinata
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}isuzu
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}itachi
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}itori
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kagura
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kakasih
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kaori
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kaneki
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kotori
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}kurumi
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}madara
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}mikasa
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}miku
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}minato
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}nezuko
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}rize
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sagiri
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sakura
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sasuke
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}shina
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}shinka
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}shinomiya
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}shizuka
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}tejina
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}toukachan
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}tsunade
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}yotsuba
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}yuki
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}yumeko
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}fanart
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}nino`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'nsfwmenu':
@@ -951,26 +942,26 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 NSFW MENU 」*
 
-${gaya2} ${prefix}ass
-${gaya2} ${prefix}ahegao
-${gaya2} ${prefix}bdsm
-${gaya2} ${prefix}blowjob
-${gaya2} ${prefix}cuckold
-${gaya2} ${prefix}cum
-${gaya2} ${prefix}ero
-${gaya2} ${prefix}femdom
-${gaya2} ${prefix}foot
-${gaya2} ${prefix}gangbang
-${gaya2} ${prefix}glasses
-${gaya2} ${prefix}hentai
-${gaya2} ${prefix}jahy
-${gaya2} ${prefix}masturbation
-${gaya2} ${prefix}neko
-${gaya2} ${prefix}orgy
-${gaya2} ${prefix}panties
-${gaya2} ${prefix}pussy
-${gaya2} ${prefix}thighs
-${gaya2} ${prefix}yuri`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ass
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ahegao
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bdsm
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}blowjob
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cuckold
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}cum
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ero
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}femdom
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}foot
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}gangbang
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}glasses
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}hentai
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}jahy
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}masturbation
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}neko
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}orgy
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}panties
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}pussy
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}thighs
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}yuri`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'stickermenu':
@@ -978,9 +969,9 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 STICKER MENU 」*
 
-${gaya2} ${prefix}sticker _reply_
-${gaya2} ${prefix}toimg _reply_
-${gaya2} ${prefix}smeme Atas|Bawah`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}sticker _reply_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}toimg _reply_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}smeme Atas|Bawah`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'othermenu':
@@ -988,11 +979,11 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 OTHER MENU 」*
 
-${gaya2} ${prefix}runtime
-${gaya2} ${prefix}speed
-${gaya2} ${prefix}owner
-${gaya2} ${prefix}ssweb _Url_
-${gaya2} ${prefix}delete _Reply pesan bot_`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}runtime
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}speed
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}owner
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}ssweb _Url_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}delete _Reply pesan bot_`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'ownermenu':
@@ -1000,18 +991,18 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 menu =
 `*「 OWNER MENU 」*
 
-${gaya2} ${prefix}bc _Teks_
-${gaya2} ${prefix}bc2 _Teks_
-${gaya2} ${prefix}bcgc _Teks_
-${gaya2} ${prefix}setnamabot _Teks_
-${gaya2} ${prefix}setbio _Teks_
-${gaya2} ${prefix}setppbot _Reply Image_
-${gaya2} ${prefix}autoread _On / Off_
-${gaya2} ${prefix}autoketik _On / Off_
-${gaya2} ${prefix}autovn _On / Off_
-${gaya2} ${prefix}clearall
-${gaya2} ${prefix}public
-${gaya2} ${prefix}self`
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bc _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bc2 _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}bcgc _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}setnamabot _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}setbio _Teks_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}setppbot _Reply Image_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}autoread _On / Off_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}autoketik _On / Off_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}autovn _On / Off_
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}clearall
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}public
+❥ࣲ፝֟͜͡◔⃟➣ ${prefix}self`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'ʙᴀᴄᴋ' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'abcde':

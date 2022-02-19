@@ -3,12 +3,11 @@ ingat !! yang ${botname} jangan di ganti
 biarin aja sans ntar bakalan keluar nama bot luh kok
 */
 const rules = (prefix, botname) => { 
-return `*_ASEDE KMTD_*
+return `*_F_*
 
-Sekmtl kmtl nya si kmtl , bampack kau muka nya cem kmtl :v 
-Canda kmtl , Baperan? 
-Jangan maen whatsapp ka , main pou sj,
-Pencet duit dapet koin yeekan ><
+Satu Dua Tutup Botol
+Yang Baca 
+Kek Kntl
 
 silakan ketik *${prefix}menu* untuk memulai!
 
