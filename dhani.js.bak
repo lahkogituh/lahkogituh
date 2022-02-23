@@ -365,9 +365,9 @@ options
 );
 };
 
-const daftar1 = `Hai Babu  ${pushname} ${ucapanWaktu} \n\nMau Akses Bot? Verifikasi Dulu Gblk `
+const daftar1 = `Hai Babu  ${pushname} ${ucapanWaktu} \n\nMau Akses Bot? Verify Dulu Gblk `
 const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak\nJika Tidak Support Button Ketik #verify```'
-const daftar3 = [{buttonId: `${prefix}verify`,buttonText: {displayText: `𝘿𝘼𝙁𝙏𝘼𝙍`,},type: 1,},]
+const daftar3 = [{buttonId: `${prefix}verify`,buttonText: {displayText: `Izin Verify`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -1054,14 +1054,29 @@ kasih credit ajg / tambah in di tqtq
 --> DhaniGans*/
 
 case 'ytmp3':
-if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
-if (args.length < 1) return reply("Masukkan url youtube")
-url = args.join(' ')
-anu = await fetchJson(`https://apidhani.herokuapp.com/api/download/ytmp3?url=${url}&apikey=${dhakey}`)
-ytmp3 = await getBuffer(anu.result.url)
-reply(`_audio sedang diproses, silahkan tunggu beberapa saat lagi_`)
-Dhani.sendMessage(from, ytmp3, audio, {mimetype:"audio/mp4", quoted:mek})
-break
+        //////
+        if (args.length < 1) return reply('Link Nya Mana?')
+        if (!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
+        teks = args.join(' ')
+        reply(mess.wait)
+        res = await y2mateA(teks).catch(e => {
+          reply('[ ! ] Error Gagal Dalam Memasuki Web Y2mate')
+        })
+        result = `┏┉⌣ ┈̥-̶̯͡..̷̴✽̶┄┈┈┈┈┈┈┈┈┈┈┉┓
+┆ YOUTUBE MP3
+└┈┈┈┈┈┈┈┈┈┈┈⌣ ┈̥-̶̯͡..̷̴✽̶⌣ ✽̶
+
+Data Berhasil Didapatkan!
+\`\`\`🐥 Title : ${res[0].judul}\`\`\`
+\`\`\`🐥 Ext : MP3\`\`\`
+\`\`\`🐥 Size : ${res[0].size}\`\`\`
+
+Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit`
+
+        sendFileFromUrl(res[0].thumb, image, { caption: result, quoted: ftroli }).then((lalu) => {
+          sendFileFromUrl(res[0].link, audio, { quoted: ftroli, mimetype: 'audio/mp3', filename: res[0].output })
+        })
+        break
 case 'ytmp4':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
 if (args.length < 1) return reply("Masukkan url youtube")
